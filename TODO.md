@@ -3,3 +3,4 @@
 - TODO: Find a better file naming strategy
 - TODO: Put CSS in another file
 - TODO: General code cleanup
+- TODO: Add logging for http requests
