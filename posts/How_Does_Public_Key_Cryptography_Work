@@ -1,4 +1,0 @@
-*Last week*, Whitfield Diffie and Martin Helman won the Turing award for their famous crypto system known as public-key cryptography. Let's go through some of the history of public-key cryptography and why it's one of the greater achievements in cryptography.
-<br>
-<br>
-During the early years of cryptography, two parties had to agree to and exchange a key that they would use for securing their communications. After the key exchange, their communication was cryptographically secure, but it was the exchanging of the key that was vulnerable to some malicious third party snooping in on. 
