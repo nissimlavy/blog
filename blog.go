@@ -3,15 +3,17 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"strings"
 	"text/template"
 )
 
 type Post struct {
-	Title string
-	Body  []byte
-	Date  string
+	Title            string
+	HyperLinkedTitle string
+	Body             []byte
+	Date             string
 }
 
 type Page struct {
@@ -28,7 +30,14 @@ func main() {
 	http.HandleFunc("/css/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, r.URL.Path[1:])
 	})
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8080", Log(http.DefaultServeMux))
+}
+
+func Log(handler http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		log.Printf("%s %s %s", r.RemoteAddr, r.Method, r.URL)
+		handler.ServeHTTP(w, r)
+	})
 }
 
 func loadPost(path string) (*Post, error) {
@@ -44,7 +53,11 @@ func getTitle(path string) (title, date string) {
 	pathArray := strings.Split(path, "/")
 	dateTitleArray := strings.Split(pathArray[len(pathArray)-1], ".")
 	titleArray := strings.Split(dateTitleArray[0], "__")
-	title = strings.Replace(titleArray[1], "_", " ", -1)
+	if len(titleArray) == 2 {
+		title = strings.Replace(titleArray[1], "_", " ", -1)
+	} else {
+		title = strings.Replace(titleArray[0], "_", " ", -1)
+	}
 	date = strings.Replace(titleArray[0], "_", "-", -1)
 	return
 }
@@ -54,11 +67,17 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 	p, err := loadPost(path)
 	if err != nil {
 		fmt.Println("Error loading page "+path, err.Error())
-		http.Redirect(w, r, "/view/Not Found.html", http.StatusFound)
+		http.Redirect(w, r, "/view/Not_Found.html", http.StatusFound)
 		return
 	}
 	title, date := getTitle(path)
-	p.Title = `<a href="` + strings.Replace(title, " ", "_", -1) + `">` + title + `</a>`
+	p.Title = title
+	pathArray := strings.Split(path, "/")
+	if len(pathArray) == 2 {
+		p.HyperLinkedTitle = `<a href="` + strings.Replace(pathArray[1], " ", "_", -1) + `">` + title + `</a>`
+	} else {
+		p.HyperLinkedTitle = `<a href="` + strings.Replace(pathArray[0], " ", "_", -1) + `">` + title + `</a>`
+	}
 	p.Body = []byte(strings.Replace(string(p.Body), "\n", "<br/>", -1))
 	p.Date = date
 	renderTemplate(w, "view", p)

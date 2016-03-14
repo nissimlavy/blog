@@ -2,13 +2,14 @@
 <head>
     <link rel="stylesheet" href="/css/reset.css" type="text/css">
     <link rel="stylesheet" href="/css/homepage.css" type="text/css">
+    <title>{{.Title}}</title>
 </head>
 <div id="main">
     <h1 id="site-title"><a href="/">Theoretically Confused</a></h1>
     <h2 id="site-subtitle">A blog about programming, computer science and computer security</h2>
     <hr>
     <div id="posts">
-        <h2 id="title">{{.Title}}</h2>
+        <h2 id="title">{{.HyperLinkedTitle}}</h2>
         <div class="metadata">
             <h6>[ {{.Date}} ]</h6>
             <a href="https://twitter.com/share" class="twitter-share-button" data-via="nlavy94">Tweet</a>
