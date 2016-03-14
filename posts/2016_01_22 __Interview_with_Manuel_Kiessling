@@ -1,0 +1,45 @@
+<em>This is part of a series of posts where I will have someone who is a professional or an expert in their field talk a bit about their field, area of expertise and challenges in their field. After those questions, I’ll have the person recommend at least five resources that someone can pick up and get involved and started in their field. This post features an interview with Manuel Kiessling(<a class="ProfileHeaderCard-screennameLink u-linkComplex js-nav" href="https://twitter.com/manuelkiessling">@<span class="u-linkComplex-target">manuelkiessling</span></a>), Head of Technical Platform Online at GALERIA Kaufhof.</em>
+<ol>
+	<li>Tell me a little bit about yourself and the field you're in.</li>
+</ol>
+I'm currently working as Head of Technical Platform Online at GALERIA Kaufhof, GmbH, the biggest department-store chain in Germany.
+
+My job is providing the tech team that will be working with the product management team to build and run Galeria.de, our online shopping site.  Additionally,  I have to ensure that what we build is fast, reliable, secure and maintainable -- which, after all, is achieved by finding and building the right team of tech experts.
+
+Through building our web-based, eCommerce platform, we focus heavily in software development and systems administration. Our tech stack is based on open source tech and we use agile as our development methodology. Our goal is to make GALERIA Kaufhof the leading multi channel retail brand in Europe.
+<ol start="2">
+	<li>What is your main area of focus in your field?</li>
+</ol>
+I'm dealing with recruiting tech talent and keeping all the parts of the platform together under the umbrella of a high-level software and systems architecture. On top of that, I'm also dealing with further evolving this architecture with my team, with challenging or pushing technological and methodical decisions, and last but not least, I'm dealing with people management.
+
+From all this, it's hard to name a single main focus. I probably deal most with questions of software and systems architecture. There are a lot of questions that need answering,  both, high-level as well as detailed; on the macro level of the whole platform as well as on the micro level of single applications. All of these questions have the potential to shape the future of the platform and its products, for better or worse.
+
+But again, the largest impact on the outcome of these challenges is the team one has, which is why after all, the main focus is on recruiting. It's the one area that makes the difference between failure and success in the long run.
+<ol start="3">
+	<li>What are some of the key challenges and problems you face in your field?</li>
+</ol>
+Continuing the thought from the previous question, the key challenge is bringing the right people on board and the hardest one is creating an environment where they can perform at their very best.
+
+The reason why this is so difficult, is because we are moving at a very fast pace in terms of product development, while also following approaches of work methodologies and team organization that are new for GALERIA Kaufhof. On top of all of that, we have to develop the culture in which all of this happens along the way.
+
+Some aspects of culture simply happen, because some aspects simply are the result of the people on the team. Other aspects, however, need to be defined, developed and managed by, well, management, and as a manager I can say this definitely isn't a simple and easy task.
+<ol start="4">
+	<li>Can you recommend a few resources, either books, online courses, papers, etc., that someone can pick up to get started in doing what you do? And if possible, can you give a few words about why you chose each resource?</li>
+</ol>
+I will try to provide a recommendation for each of the most important aspects of my work.
+<ul>
+	<li><a href="http://www.fearlesschangepatterns.com/" target="_blank">Fearless Change: Patterns for Introducing New Ideas</a>
+When you face the challenge of transforming a workplace, this book provides valuable insights on how to proceed.</li>
+</ul>
+<ul>
+	<li><a href="http://www.growing-object-oriented-software.com/" target="_blank">Growing Object-Oriented Software Guided by Tests</a>
+Currently the best book available if you want to create software products that are reliable and maintainable, and do exactly what the user wants.</li>
+</ul>
+<ul>
+	<li><a href="https://pragprog.com/book/mnee/release-it" target="_blank">Release It!: Design and Deploy Production-Ready Software</a>
+Software is not only something you build, it is something that needs to be deployed and run in order to create value. This book is essential if one wants to make the shift from being a software developer to being a provider of working solutions.</li>
+</ul>
+<ul>
+	<li><a href="http://www.enterpriseintegrationpatterns.com/ramblings/86_isthisarchitecture.html" target="_blank">The blog posts by Gregor Hohpe on software architecture</a>
+And if you really want to risk reading only one of his posts and miss the others, then read <a href="http://llis.nasa.gov/lesson/1956" target="_blank">Project Management lessons from NASA</a>. I wouldn't take it as a checklist that has to be applied thoroughly, but I recommend reading it once in a while, reflect on each item, and adapt it to your own personality and the context you are in.</li>
+</ul>

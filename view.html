@@ -1,99 +1,28 @@
 <html>
-    <head>
-        <style>
-            /* http://meyerweb.com/eric/tools/css/reset/ 
-            v2.0 | 20110126
-            License: none (public domain)
-            */
-            html, body, div, span, applet, object, iframe,
-            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-            a, abbr, acronym, address, big, cite, code,
-            del, dfn, em, img, ins, kbd, q, s, samp,
-            small, strike, strong, sub, sup, tt, var,
-            b, u, i, center,
-            dl, dt, dd, ol, ul, li,
-            fieldset, form, label, legend,
-            table, caption, tbody, tfoot, thead, tr, th, td,
-            article, aside, canvas, details, embed, 
-            figure, figcaption, footer, header, hgroup, 
-            menu, nav, output, ruby, section, summary,
-            time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-            }
-            /* HTML5 display-role reset for older browsers */
-            article, aside, details, figcaption, figure, 
-            footer, header, hgroup, menu, nav, section {
-            display: block;
-            }
-            body {
-            line-height: 1;
-            }
-            ol, ul {
-            list-style: none;
-            }
-            blockquote, q {
-            quotes: none;
-            }
-            blockquote:before, blockquote:after,
-            q:before, q:after {
-            content: '';
-            content: none;
-            }
-            table {
-            border-collapse: collapse;
-            border-spacing: 0;
-            }
-            html {
-            font-family: Courier;
-            }
-            #main {
-            margin: auto;
-            width: 60%;
-            border: 1px solid #CCC;
-            padding: 10px;	
-            }
-            #main > #site-title, #site-subtitle {
-            text-align: center;
-            }
-            #main > #site-title {
-            font-weight: bold;
-            }
-			#main > #site-title a, #title a{
-			color: inherit; /* blue colors for links too */
-  			text-decoration: inherit; /* no underline */
-			}
-            hr {
-            display: block;
-            height: 1px;
-            border: 0;
-            border-top: 1px solid #CCC;
-            margin: 1em 0;
-            padding: 0; 
-            }
-			#title {
-			text-decoration: underline;
-			font-weight: bold;
-			padding-bottom: 1%;
-			}
-			#posts {
-            margin: auto;
-            width: 90%;
-            padding: 10px;
-			}
-        </style>
-    </head>
-    <div id="main">
-        <h1 id="site-title"><a href="/">Theoretically Confused</a></h1>
-        <h2 id="site-subtitle">A blog about programming, computer science and computer security</h2>
-        <hr>
-        <div id="posts">
-			<h2 id="title">{{.Title}}</h2>
-        	<div>{{printf "%s" .Body}}</div>
-    	</div>
-	</div>
+<head>
+    <link rel="stylesheet" href="/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/css/homepage.css" type="text/css">
+</head>
+<div id="main">
+    <h1 id="site-title"><a href="/">Theoretically Confused</a></h1>
+    <h2 id="site-subtitle">A blog about programming, computer science and computer security</h2>
+    <hr>
+    <div id="posts">
+        <h2 id="title">{{.Title}}</h2>
+        <div class="metadata">
+            <h6>[ {{.Date}} ]</h6>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="nlavy94">Tweet</a>
+            <script>!function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <div>{{printf "%s" .Body}}</div>
+    </div>
+</div>
 </html>

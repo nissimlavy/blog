@@ -1,0 +1,29 @@
+As the new year begins, I think about what I’d like to accomplish by next year. As always, in our field there is so much to learn; there’s a never-ending list of interesting things to learn. I’ve picked a few things that I’ve been thinking about over the past few weeks that I’d like to achieve to grow professionally and personally. The following is list is definitely more than I can handle in one year given the amount of free time that I have but I do like having a tentative framework and a list of things to refer to so that I can keep track of my progress. The inspiration of this list came from <a href="http://jasonrudolph.com/blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/" target="_blank" data-cke-saved-href="http://jasonrudolph.com/blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/">this post</a> that I had read a while back. I did take a few ideas from there since there were many great goals there for “leveling-up” as a developer. There is a simple idea that if you’re not constantly learning and building, your skills and your mind tends to become stale.
+
+<h3>Work on a few side projects</h3>
+There are a few ideas and projects that I’ve aggregated over the past few weeks that I would’ve really loved to work on, but I just never made the time for it. Using both Pocket and Evernote, I kept track of project ideas that I saw online, as well as things that I thought of, that I wanted to try and build myself. I chose these projects because they’re really interesting to me and I feel like they would really help improve my skills as a programmer and give me a better understanding of many of the applications and systems that I work with. Some of the side projects include:
+<ul>
+	<li>Writing a compiler</li>
+	<li>Writing a simple OS</li>
+	<li>Writing a simple programming language</li>
+	<li>Writing a simple database</li>
+	<li>Writing a networking client</li>
+	<li>Writing a relatively complex web application</li>
+</ul>
+
+<h3>Learn a new programming paradigm or two</h3>
+My main programming language is Java (I’ve used some other languages like C++, Python, C, Javascript) and the vast majority of my programming experience thus far has been in the OOP world. While that’s not a bad thing, it is always a good idea to keep on learning and not get stuck in a single mindset. At the company that I work, there are talks of switching over from Java, an OOP programming language, to Scala, a functional programming language. While the switch isn’t that bad, it requires some time and effort to break out of the OO mindset and think about solving problems and think about handling data differently. I’ve known about FP, as well as other paradigms, for a while but I’ve never working with it and this made me realized how closed up I am in the OOP world. As a result, I wanted to learn a few new paradigms, and programming and problem solving methodologies to add to my toolset. I have started looking at Scala a bit more and getting more comfortable with it and I’m also learning Go (which is a super awesome language)
+
+<h3>Finally learn some Data Science</h3>
+Data Science has been the tech buzzword of 2015, and will probably continue to be so during the coming year. I’ve always been very interested in Data Science and what you can achieve with it. I find the idea of being able to analyze a bunch of data and extract meaningful information, or make predictions about some data, to be incredibly interesting. There are a large number of tutorials, courses and textbooks that teach Data Science, Data Mining, Machine Learning, and every other buzzword that falls under the Data Science umbrella. I haven’t yet found a seriously good resource for learning Data Science, so I’m open to suggestions!
+
+<h3>Continue working on the blog</h3>
+I’d like to continue working on the blog and writing some interesting and useful information for people to read. I’d like to write about some of the technologies and areas of focus that I’m more well-versed in. I’ve already started working on a series of posts where I get professionals and experts in their field to speak about their field, their challenges and areas of focus. Then, finally, I ask them to recommend at least 5 resources that someone can pick up to learn more about their field and get involved. I think that this would interesting idea that would be able to benefit others, as well as myself.
+
+<h3>Get through the books piling up on my bookshelf</h3>
+There is a word in Japanese, <em>tsundoku</em>, which means “the act of constantly buying books but never actually reading them.” This is something that I suffer from. I absolutely love books. I have plenty of CS books that I bought but just haven’t taken the time to go through. I want to be able to work through those books and textbooks and learn what they have to offer.
+
+<h3>Contribute to an open source project</h3>
+A great way to gain programming experience and meet people who are passionate about programming is to get involved in an open source project. I haven’t yet found an open source project to contribute to yet but this is definitely a goal I’d like to achieve by the end of the year. I use so many great OSS projects and it would be great to be able to contribute to one.
+
+This is probably more than I can realistically achieve in a year but I plan on getting started and seeing how far I get. The more I can achieve, the better. If you have any questions or suggestions, please share!

@@ -1,0 +1,83 @@
+html {
+    font-family: Courier;
+}
+
+#main {
+    margin: auto;
+    width: 60%;
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+#main > #site-title, #site-subtitle {
+    text-align: center;
+}
+
+#main > #site-title {
+    font-weight: bold;
+}
+
+#main > #site-title a, #title a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+#main > #site-title a:visited, #title a:visited {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #CCC;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.title {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+#title {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+#posts {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+img {
+    width: 45%;
+    padding-right: 2%;
+}
+
+ul {
+    margin-left: 2%;
+    padding: 0;
+}
+
+h6 {
+    font-size: 75%;
+    font-style: italic;
+    padding-bottom: 1%;
+}
+
+div.metadata {
+    display: flex;
+    padding-top: 1%;
+}
+
+div.metadata * {
+    padding-right: 1%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

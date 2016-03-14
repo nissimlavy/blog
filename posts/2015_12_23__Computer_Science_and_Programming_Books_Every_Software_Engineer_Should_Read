@@ -1,0 +1,57 @@
+<strong>Not <em>another</em> list!</strong>
+
+Yes, there are <a href="http://qr.ae/RbdybH" target="_blank">tons</a> and <a href="http://stackoverflow.com/questions/143760/what-books-should-i-read-to-have-an-undergraduate-education-in-computer-science" target="_blank">tons</a> of lists like this around the web. However, these lists usually all contain the same books, over and over. Of course, the books that are on other lists are fantastic resources and are classics, but there are a number of amazing books out there that hardly ever get mentioned because any time someone tries to get recommendations on for a book concerning a certain topic, they get these boiler-plate answers. Algorithms? <em>Oh of course, use <a href="http://amzn.to/1SipPqR" target="_blank">CLRS</a>... </em>
+
+Those books that are classics are so for a good reason, they're really good at teaching a certain topic. But there are alternatives and there are other books out there that talk about more than just the standard CS curriculum. Consider the following books:
+<div style="display: inline-block;">
+<h3 id="title"><span id="productTitle" class="a-size-extra-large">Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp</span></h3>
+<a href="http://www.amazon.com/gp/product/1558601910/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1558601910&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=BXAMJLHN4C6NISCN" rel="nofollow"><img class="alignleft" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=1558601910&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=theoretconfus-20" alt="" align="left" border="0" /></a>I admit, I'm not a Lisp type of programmer, however this book provides a lot of great and interesting insight into applying your AI knowledge using code. There are plenty of examples in the book of how to write efficient and working code for AI purposes and why using Common Lisp is a great language for the job. The book is written by the famous <a href="http://norvig.com/" target="_blank">Peter Norvig</a>, co-author of the classic AI book <a href="http://www.amazon.com/gp/product/0136042597/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0136042597&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=2HSJJNGOPKEHFPF4" rel="nofollow">Artificial Intelligence: A Modern Approach (3rd Edition)</a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=0136042597" alt="" width="1" height="1" border="0" />, Director of Research at Google, and teacher of the free Udacity course <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271" target="_blank">Intro to Artificial Intelligence</a>.
+
+Even if you're not interested at all in AI, you should take a look at this book just for the interesting problems and exercises in there. And you might even learn to love a new language.
+
+</div>
+&nbsp;
+<div style="display: inline-block;">
+<h3 id="title"><span id="productTitle" class="a-size-extra-large">Elements of Programming</span></h3>
+<a href="http://www.amazon.com/gp/product/032163537X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=032163537X&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=JLD5DDDBRFXR43JS" rel="nofollow"><img class="alignleft" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=032163537X&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=theoretconfus-20" alt="" align="left" border="0" /></a>Across all other engineering disciplines, there is heavy and extensive use of math. Mechanical, structural and civil engineers critical and potentially life-threatening systems with minimal or even without any "bugs" at all in their system. However, in the field of software engineering, it's become very common to ship and deliver software with plenty of bugs and uncertainties. This book tries to push software engineering over to join the rest of the engineering disciplines by teaching the software engineering the math behind programming. It shows practical use of algorithms in common languages such as C++. Anyone who's interested in building airtight, solid software, should take a look at this book.
+
+</div>
+&nbsp;
+<div style="display: inline-block;">
+<h3 id="title"><span id="productTitle" class="a-size-extra-large">Concepts, Techniques, and Models of Computer Programming</span></h3>
+<a href="http://www.amazon.com/gp/product/0262220695/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0262220695&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=NEPWMY5SOE4LKQKA" rel="nofollow"><img class="alignleft" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=0262220695&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=theoretconfus-20" alt="" align="left" border="0" /></a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=0262220695" alt="" width="1" height="1" border="0" /><em>Object Oriented? Functional? What? </em>Today, there's a lot of buzz around the different programming paradigms out there. Many people are following the OOP paradigm strictly, while others believe that Functional Programming is the future. So what exactly is OOP, or FP or any of the other programming paradigms out there? Which should you use and what's the right use case for each? Well, that's exactly what this book is going to tell you. The book talks about all major programming paradigms in a way that shows how they're connected, and how and where to use them together. The book covers paradigms and concepts such as:
+    <blockquote>
+        <ul>
+            <li>declarative programming,</li>
+            <li>declarative concurrency,</li>
+            <li>message-passing concurrency,</li>
+            <li>explicit state,</li>
+            <li>object-oriented programming,</li>
+            <li>shared-state concurrency,</li>
+            <li>relational programming,</li>
+            <li>graphical user interface programming,</li>
+            <li>distributed programming,</li>
+            <li>constraint programming</li>
+        </ul>
+    </blockquote>
+This book is definitely a great resource in getting a deeper understanding of programming in general and the concepts and patterns involved.
+
+</div>
+<div style="display: inline-block;">
+<h3 id="title"><span id="productTitle" class="a-size-extra-large">Essentials of Programming Languages</span></h3>
+<a href="http://www.amazon.com/gp/product/0262062798/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0262062798&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=TQNYF424UME77UL6" rel="nofollow"><img class="alignleft" style="width: 200px; height: 250px;" src="http://ecx.images-amazon.com/images/I/41CDnVJTcKL._SX442_BO1,204,203,200_.jpg" alt="" align="left" border="0" /></a>
+Programming languages happen to be something that I'm very interested in. I love learning new languages, as well as, learning how languages work under the hood. The topic of programming languages has always seemed very interesting to me. With that said, this book teaches you the basics of programming languages, from semantics to interpreters. The book gives a pretty good balance between theoretical and hands-on information. As with all computer science and math books, be sure to do the problems if you want to gain the most out of this book. (The 2nd edition happens to be better than the third one, so I've heard.)
+
+</div>
+&nbsp;
+<div style="display: inline-block;">
+<h3 id="title"><span id="productTitle" class="a-size-extra-large">Rapid Development: Taming Wild Software Schedules</span></h3>
+<a href="http://www.amazon.com/gp/product/1556159005/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1556159005&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=N62A2YXQOGVXAMQO" rel="nofollow"><img class="alignleft" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=1556159005&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=theoretconfus-20" alt="" align="left" border="0" /></a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=1556159005" alt="" width="1" height="1" border="0" />This book is a bit different from the ones before it. From the author of another classic, <a href="http://www.amazon.com/gp/product/0735619670/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0735619670&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=DMHIFAUTL2WH46LT" rel="nofollow">Code Complete: A Practical Handbook of Software Construction, Second Edition</a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=0735619670" alt="" width="1" height="1" border="0" />, McConnell talks about the software engineering side of things, as opposed to the hardcore math and computer science side. He brings in bits of advice from his other book, as well as from other classics like <a href="http://www.amazon.com/gp/product/0201835959/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0201835959&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=NQKFRMJY76A5EP7V" rel="nofollow">The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition (2nd Edition)</a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=0201835959" alt="" width="1" height="1" border="0" />. Anyone who is a software engineer or a manager in a modern tech company should checkout out this book.
+
+</div>
+&nbsp;
+<div style="display: inline-block;">
+<h3>The Linux Programming Interface: A Linux and UNIX System Programming Handbook</h3>
+<a href="http://www.amazon.com/gp/product/1593272200/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1593272200&amp;linkCode=as2&amp;tag=theoretconfus-20&amp;linkId=UCATJRZTSFUFIU2C" rel="nofollow"><img class="alignleft" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=1593272200&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=theoretconfus-20" alt="" align="left" border="0" /></a><img style="border: none !important; margin: 0px !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=theoretconfus-20&amp;l=as2&amp;o=1&amp;a=1593272200" alt="" width="1" height="1" border="0" />Considering how many software engineers work with linux every day and how many of us would love to learn more about linux, this book is a must. This book is seen as the authoritative and definitive guide to programming on Linux and Unix machines. It teaches you how to properly and efficiently use Linux system calls and how to master the art of systems programming. Systems programming is a very different mindset than applications programming but it is an interesting field and definitely offers a few things that application developers can learn from and benefit.
+
+</div>

@@ -11,6 +11,7 @@ import (
 type Post struct {
 	Title string
 	Body  []byte
+	Date  string
 }
 
 type Page struct {
@@ -24,6 +25,9 @@ var templates = template.Must(template.ParseFiles("view.html"))
 func main() {
 	http.HandleFunc("/", homePageHandler)
 	http.HandleFunc("/view/", viewHandler)
+	http.HandleFunc("/css/", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, r.URL.Path[1:])
+	})
 	http.ListenAndServe(":8080", nil)
 }
 
@@ -36,11 +40,13 @@ func loadPost(path string) (*Post, error) {
 	return &Post{Title: path, Body: body}, nil
 }
 
-func getTitle(path string) string {
+func getTitle(path string) (title, date string) {
 	pathArray := strings.Split(path, "/")
-	titleArray := strings.Split(pathArray[len(pathArray)-1], ".")
-	title := strings.Replace(titleArray[0], "_", " ", -1)
-	return title
+	dateTitleArray := strings.Split(pathArray[len(pathArray)-1], ".")
+	titleArray := strings.Split(dateTitleArray[0], "__")
+	title = strings.Replace(titleArray[1], "_", " ", -1)
+	date = strings.Replace(titleArray[0], "_", "-", -1)
+	return
 }
 
 func viewHandler(w http.ResponseWriter, r *http.Request) {
@@ -51,8 +57,10 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/view/Not Found.html", http.StatusFound)
 		return
 	}
-	fmt.Println(path, p.Title)
-	p.Title = `<a href="` + strings.Replace(getTitle(path), " ", "_", -1) + `">` + getTitle(p.Title) + `</a>`
+	title, date := getTitle(path)
+	p.Title = `<a href="` + strings.Replace(title, " ", "_", -1) + `">` + title + `</a>`
+	p.Body = []byte(strings.Replace(string(p.Body), "\n", "<br/>", -1))
+	p.Date = date
 	renderTemplate(w, "view", p)
 }
 
@@ -63,9 +71,14 @@ func homePageHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	var posts []*Post
+	fileNames := make([]string, 0, 10000)
 	for _, file := range files {
-		p, err := loadPost("posts/" + file.Name())
+		fileNames = append(fileNames, file.Name())
+	}
+	var posts []*Post
+	for i := len(fileNames) - 1; i >= 0; i-- {
+		p, err := loadPost("posts/" + fileNames[i])
+		p.Body = []byte(strings.Replace(string(p.Body), "\n", "<br/>", -1))
 		if err != nil {
 			fmt.Println("Error getting list of posts", err.Error())
 			http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -75,8 +88,10 @@ func homePageHandler(w http.ResponseWriter, r *http.Request) {
 		if len(bodySplit) > 150 {
 			p.Body = []byte(strings.Join(bodySplit[:150], " ") + "... ")
 		}
-		p.Body = append(p.Body, []byte(`<a href=/view/`+p.Title+`>Read more</a>`)...)
-		p.Title = getTitle(p.Title)
+		p.Body = append(p.Body, []byte(`<br/><br/><a href=/view/`+p.Title+`>Read more</a>`)...)
+		title, date := getTitle(p.Title)
+		p.Title = `<a href=/view/` + p.Title + `>` + title + `</a>`
+		p.Date = date
 		posts = append(posts, p)
 	}
 	t, err := template.ParseFiles("index.html")

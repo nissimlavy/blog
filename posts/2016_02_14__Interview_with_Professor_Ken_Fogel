@@ -1,0 +1,35 @@
+<em>This is part of a series of posts where I will have someone who is a professional or an expert in their field talk a bit about their field, area of expertise and challenges in their field. After those questions, I’ll have the person recommend at least five resources that someone can pick up and get involved and started in their field. This post features an interview with Ken Fogel (<a class="ProfileHeaderCard-screennameLink u-linkComplex js-nav" href="https://twitter.com/omniprof">@<span class="u-linkComplex-target">omniprof</span></a>), Chairperson and Program Coordinater of Computer Science Technology at Dawson College.</em>
+<ol>
+	<li>Tell me a little bit about yourself and the field you're in.</li>
+</ol>
+For 25 years I have been a teacher at Dawson College in the Computer Science Technology Program. Previously I was a contract programmer for 8 years and before that I was a photographic technician and a graphic artist. I began my career in programming when I purchased an Apple ][+ in 1980. I added RAM to get to 48K and a floppy disk drive for a total cost of $2000. I was the envy of the handful of Apple owners at the time because of the floppy drive. I immediately became obsessed with the computer and after three years I started being offered contract work as well as teaching opportunities in continuing education.
+
+In Quebec we have a unique education system that takes students from high school and has them attend, tuition free, an institution known by its French language acronym CEGEP. In a CEGEP a student may follow a two year pre-university program or a three year technology program. For example, nursing, x-ray technician, and civil engineering technician are some of the 22 technical programs at Dawson.
+
+Computer Science Technology, my program, differs substantially from university undergraduate programs in that we focus on the practical aspects of software development. Everything we teach contributes to the students knowledge on programming. Our primary language is Java that is used in seven different courses. Our goal is to make our graduates job ready. I wonder what university course might have a lecture on using data beans and how to code with a separation of concerns as a guiding principle.
+
+Today I am Program Coordinator and Department Chair and have been for 14 years. I started writing about the practical aspects of programming two years ago and this led to invitations to speak at the last two JavaOne conferences. Over the holidays I was elected to the NetBeans Dream Team.
+
+&nbsp;
+<ol start="2">
+	<li>What is your main area of focus in your field?</li>
+</ol>
+My primary focus is on how to be a better teacher on the topic of programming. In a CEGEP we are considered professors but without any requirement to do research, though we may if we wish to. Instead we are expected to use our time outside of the classroom to keep up with our field and look for better ways to be a teacher. In my case I teach courses in the final year of the program. I believe that my students must be on the leading edge of modern programming methodology to be employable in the current market. To that end I have abandoned Swing for JavaFX for a desktop applications course and abandoned Servlets/JSP for JavaServer Faces.
+
+&nbsp;
+<ol start="3">
+	<li>What are some of the key challenges and problems you face in your field?</li>
+</ol>
+I believe that the biggest challenge is the perception that programming is a skill anyone can pick up. The failure of universities to train programmers rather than researchers has led to a backlash against computer science graduates. Employers are starting to look at new hires without any formal training at all and instead are accepting online and weekend training courses as sufficient to be a programmer.
+
+The second challenge is the misguided belief that anyone can be a programmer. This is like saying anyone can be a doctor or an engineer. The fact is that in most every profession there are only a small proportion of the population who have the necessary passion to be successful. While anyone can take a course at Udemy or Treehouse and pass it but that does not make them a programmer. At Dawson we graduate only one third of the students who enter our program. The other two thirds change their program and so do graduate from something, just not computer science. The one third that does graduate are the passionate students who will excel in the work place.
+
+&nbsp;
+<ol start="4">
+	<li>Can you recommend a few resources, either books, online courses, papers, etc., that someone can pick up to get started in doing what you do? And if possible, cam you give a few words about why you chose each resource?</li>
+</ol>
+When I began as a contract programmer I would always have a portion of my fee set aside for books. This was in the pre-internet days. Today we all run to the web for every answer. Meanwhile the technical book publishing industry publishes books that are out of date on their first day of publication. What I do in my courses is to act as an aggregator for the concepts that my students need to know that I present as either slides or short essays. The most important resource, in my opinion, is code. Not just any code such as you find on stack overflow but well commented, designed to best practices and demonstrating of a specific concept or solution code.
+
+Programming is a collaborative profession. I continue to be astonished at how much programmers wish to share. The concept of open source has few analogs in other fields. For that reason I see Twitter as an important tool. I use my Twitter account exclusively to ask questions or make outlandish statements about programming. Nothing about what I had for breakfast or how much the latest Star Wars movie sucked. Twitter is where I connect with the community.
+
+My last recommendation is to identify bloggers and writers that are writing about what interests you. Follow me on Twitter at @omniprof and see who I follow. Visit sites like <a href="https://dzone.com/" target="_blank">dzone</a> or <a href="https://jaxenter.com/" target="_blank">jaxenter</a>. Look for the personal web sites of these writers. Ask them questions, complement their work or question their sanity.
